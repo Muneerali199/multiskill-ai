@@ -1,0 +1,9 @@
+# Ignore model folders and big weights
+multiskill_distilgpt2_model/
+multiskill_distilgpt2_model.zip
+small_multiskill_distilgpt2_model.zip
+
+# Any large model formats
+*.safetensors
+*.bin
+*.pt
