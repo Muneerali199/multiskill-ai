@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-FINETUNED_DIR = "multiskill_distilgpt2_model"
+FINETUNED_DIR = "Muneerali199/multiskill-distilgpt2-model"
 
 app = FastAPI(title="Multi-Skill distilgpt2 Finetuned API")
 
