@@ -2,6 +2,4 @@ fastapi==0.115.0
 uvicorn==0.30.0
 transformers==4.46.1
 protobuf<4
-
-# CPU-only PyTorch (small size, no CUDA)
-torch==2.3.1
+torch==2.9.1
